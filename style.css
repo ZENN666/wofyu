@@ -1,0 +1,70 @@
+/* style.css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f8ff;
+    font-family: 'Poppins', sans-serif; /* Gunakan font Poppins di seluruh body */
+}
+
+.wrapper {
+    text-align: center;
+    background-color: transparent; /* Ubah background menjadi transparan */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: none;
+}
+
+.question {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: 600; /* Tebalkan teks dengan font-weight */
+}
+
+.gif {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.btn-group {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif; /* Terapkan font Poppins pada tombol */
+    color: white;
+    background-color: #FF69B4; /* Warna pink */
+    border: none; /* Hapus border */
+    border-radius: 50px; /* Buat tombol lebih bulat */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    outline: none;
+    box-shadow: none;
+}
+
+button:hover {
+    background-color: #FF1493; /* Warna pink lebih gelap saat dihover */
+}
+
+.yes-btn {
+    background-color: #FF69B4; /* Warna pink */
+}
+
+.no-btn {
+    background-color: #FF69B4; /* Warna pink */
+}
